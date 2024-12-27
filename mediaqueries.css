@@ -67,6 +67,17 @@
         height: 83vh;
         margin-bottom: 0;
     }
+    
+    .adekore-profile-picture{
+        z-index: 1;
+        /* position: relative; */
+    }
+
+
+    .hamburger-menu{
+        z-index: 10;
+        /* position: relative; */
+    }
 
     article{
         font-size: 1rem;
