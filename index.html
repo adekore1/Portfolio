@@ -8,278 +8,10 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Adekore Balogun</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
-        </div>
-    </nav>
-    <nav id="hamburger-nav">
-        <div class="logo">Adekore Balogun</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
-            </div>
-        </div>
-    </nav>
-    <section id="profile">
-        <div class="section__pic-container">
-            <img src="./assets/ab logo1.jpeg" alt="Adekore profile picture" class="adekore-profile-picture">
-        </div>
-        <div class="section__text"> 
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Adekore Balogun.</h1>
-            <p class="section__text__p2">Computer Science Student</p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/AdekoreBalogun-resumeOnly.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-            </div>
-            <div id="socials-container">
-                <img 
-                src="./assets/linkedin.png" 
-                alt="My linkedin Profile" 
-                class="icon" onclick= "window.open(href='https://www.linkedin.com/in/adekore-balogun-03b6a4224/' , '_blank')">
-                <img 
-                src="./assets/github.png" 
-                alt="My github Profile" 
-                class="icon" onclick="window.open(href='https://github.com/' , '_blank')">
-            </div>
-        </div>
-        <img src="./assets/arrow.png" 
-            alt="arrow icon" 
-            class="icon arrow"onclick="location.href='./#about'">
-    </section>
-    <section id="about">
-        <p class="section__text__p1">Get to know more</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-            <div class="section__pic-container">
-                <img src="./assets/pp4.jpeg" 
-                alt="Profile picture"
-                class="about-pic">
-            </div>
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" 
-                        alt="experience icon"
-                        class="icon">
-                        <h3>Experience</h3>
-                        <p>Student.</p>  
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" 
-                        alt="education icon"
-                        class="icon">
-                        <h3>Education</h3>
-                        <p>2nd Year, B.Sc. Honors co-op Computer Science<br>Carleton University</p>  
-                    </div>
-                </div>
-                <div class="text-container">
-                    <p id="about-paragraph">Hello, I'm Adekore Olurotimi Balogun, a motivated second-year Carleton University Honours Computer Science student. 
-                        My passion is using code to solve issues and constantly learning more about the ever changing field of technology. 
-                        Through projects like this portfolio and a specially created Snake game, I take satisfaction in realising my ideas and thrive on difficulties. 
-                        I'm excited to study, develop, and take advantage of opportunities as a student that will let me use my abilities and open my eyes to new ideas, 
-                        and thrilled to embark on this adventure of transforming my love of technology into worthwhile endeavours.
-                    </p>
-                    <p> - </p>
-                    <p id="about-paragraph">Future Goals:
-                        "I am currently focused on advancing my programming skills by developing more complex projects in Python, Java, and C. 
-                        My aim is to deepen my understanding of these languages and apply them to solve real-world problems.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" 
-            alt="arrow icon" 
-            class="icon arrow"onclick="location.href='./#experience'">
-    </section>
-    <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Front End Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>responsive UI</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>Flutter</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                    </div>  
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Back End Development</h2>
-                    <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>Java</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>Python</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>OOP</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" 
-                            alt="experience icon" 
-                            class="icon">
-                            <div>
-                                <h3>C</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                    
-                    </div>  
-                </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" 
-            alt="arrow icon" 
-            class="icon arrow"onclick="location.href='./#projects'">
-    </section>
-    <section id="projects">
-        <p class="section__text__p1">Browse my recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
-                    <div class="proj-article-container">
-                        <img 
-                            src="./assets/project-1(snake).png" 
-                            alt="Project 1"
-                            class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project One : snake</h2>
-                    <p id="project-p"> Languages used: python (tkinter)</p>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="window.open(
-                        href = 'https://github.com/adekore1/Snake-game-pyhton-ui/' , '_blank')">Github</button>
-
-                        <button class="btn btn-color-2 project-btn" onclick="window.open(
-                        href = 'https://replit.com/@adekorebalogun/Snake-game-pyhton-ui/' , '_blank')">Live Demo</button>
-                    </div>
-                </div>
-                <div class="details-container color-container">
-                    <div class="proj-article-container">
-                        <img 
-                            src="./assets/project-2(calcuator).png" 
-                            alt="Project 2 : calculator"
-                            class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Two : Calculator app</h2>
-                    <p id="project-p"> Languages used: javafx , css</p>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="window.open(
-                        href = 'https://github.com/adekore1/calculator/' , '_blank')">Github</button>
-
-                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.
-                        href='https://github.com/'">Live Demo</button> -->
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        <img src="./assets/arrow.png" 
-            alt="arrow icon" 
-            class="icon arrow"onclick="location.href='./#contact'">
-    </section>
-    <section id="contact">
-        <p class="section__text__p1">Get in touch</p>
-        <h1 class="title">Contact me</h1>
-        <div class="contact-info-upper-container">
-            <div class="contact-info-container">
-                <img 
-                src="./assets/email.png" 
-                lt="Email icon" 
-                class="icon contact-icon email-icon">
-                <p><a href="mailto:adekorebalogun@cmail.carleton.ca">adekorebalogun@cmail.carleton.ca</a></p>
-            </div>
-            <div class="contact-info-container">
-                <img 
-                src="./assets/linkedin.png" 
-                lt="Linkedin icon" 
-                class="icon contact-icon linkedin-icon">
-                <p><a href="https://www.linkedin.com/in/adekore-balogun-03b6a4224/" target="_blank">LinkedIn</a></p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <nav>
-            <div class="nav-links-container">
+    <div class="rounded-background">
+        <nav id="desktop-nav">
+            <div class="logo">Adekore Balogun</div>
+            <div>
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
@@ -288,8 +20,278 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2024 Adekore Balogun. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+        <nav id="hamburger-nav">
+            <div class="logo">Adekore Balogun</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/ab logo1.jpeg" alt="Adekore profile picture" class="adekore-profile-picture">
+            </div>
+            <div class="section__text"> 
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Adekore Balogun.</h1>
+                <p class="section__text__p2">Computer Science Student</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/AdekoreBalogun-resumeOnly.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="My linkedin Profile" 
+                    class="icon" onclick= "window.open(href='https://www.linkedin.com/in/adekore-balogun-03b6a4224/' , '_blank')">
+                    <img 
+                    src="./assets/github.png" 
+                    alt="My github Profile" 
+                    class="icon" onclick="window.open(href='https://github.com/' , '_blank')">
+                </div>
+            </div>
+            <img src="./assets/arrow.png" 
+                alt="arrow icon" 
+                class="icon arrow"onclick="location.href='./#about'">
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Get to know more</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/pp4.jpeg" 
+                    alt="Profile picture"
+                    class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" 
+                            alt="experience icon"
+                            class="icon">
+                            <h3>Experience</h3>
+                            <p>Student.</p>  
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" 
+                            alt="education icon"
+                            class="icon">
+                            <h3>Education</h3>
+                            <p>2nd Year, B.Sc. Honors co-op Computer Science<br>Carleton University</p>  
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p id="about-paragraph">Hello, I'm Adekore Olurotimi Balogun, a motivated second-year Carleton University Honours Computer Science student. 
+                            My passion is using code to solve issues and constantly learning more about the ever changing field of technology. 
+                            Through projects like this portfolio and a specially created Snake game, I take satisfaction in realising my ideas and thrive on difficulties. 
+                            I'm excited to study, develop, and take advantage of opportunities as a student that will let me use my abilities and open my eyes to new ideas, 
+                            and thrilled to embark on this adventure of transforming my love of technology into worthwhile endeavours.
+                        </p>
+                        <p> - </p>
+                        <p id="about-paragraph">Future Goals:
+                            "I am currently focused on advancing my programming skills by developing more complex projects in Python, Java, and C. 
+                            My aim is to deepen my understanding of these languages and apply them to solve real-world problems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" 
+                alt="arrow icon" 
+                class="icon arrow"onclick="location.href='./#experience'">
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Front End Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>responsive UI</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>Flutter</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>  
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Back End Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>OOP</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="experience icon" 
+                                class="icon">
+                                <div>
+                                    <h3>C</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" 
+                alt="arrow icon" 
+                class="icon arrow"onclick="location.href='./#projects'">
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse my recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="proj-article-container">
+                            <img 
+                                src="./assets/project-1(snake).png" 
+                                alt="Project 1"
+                                class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project One : snake</h2>
+                        <p id="project-p"> Languages used: python (tkinter)</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="window.open(
+                            href = 'https://github.com/adekore1/Snake-game-pyhton-ui/' , '_blank')">Github</button>
+
+                            <button class="btn btn-color-2 project-btn" onclick="window.open(
+                            href = 'https://replit.com/@adekorebalogun/Snake-game-pyhton-ui/' , '_blank')">Live Demo</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="proj-article-container">
+                            <img 
+                                src="./assets/project-2(calcuator).png" 
+                                alt="Project 2 : calculator"
+                                class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two : Calculator app</h2>
+                        <p id="project-p"> Languages used: javafx , css</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn" onclick="window.open(
+                            href = 'https://github.com/adekore1/calculator/' , '_blank')">Github</button>
+
+                            <!-- <button class="btn btn-color-2 project-btn" onclick="location.
+                            href='https://github.com/'">Live Demo</button> -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <img src="./assets/arrow.png" 
+                alt="arrow icon" 
+                class="icon arrow"onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in touch</p>
+            <h1 class="title">Contact me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/email.png" 
+                    lt="Email icon" 
+                    class="icon contact-icon email-icon">
+                    <p><a href="mailto:adekorebalogun@cmail.carleton.ca">adekorebalogun@cmail.carleton.ca</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    lt="Linkedin icon" 
+                    class="icon contact-icon linkedin-icon">
+                    <p><a href="https://www.linkedin.com/in/adekore-balogun-03b6a4224/" target="_blank">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Adekore Balogun. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
