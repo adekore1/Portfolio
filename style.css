@@ -2,6 +2,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+/* Define the keyframes for the gradient animation */
+    @keyframes gradient {
+        0%, 100% {
+            background-size: 80% 80%; /* Smallest size */
+        }
+        25% {
+            background-size: 90% 90%; /* Expand slightly */
+        }
+        50% {
+            background-size: 200% 200%; /* Fully expanded */
+        }
+        75% {
+            background-size: 140% 140%; /* Contract slightly */
+        }
+    }
+  
+
+
+
     *{
         margin: 0;
         padding: 0;
@@ -9,14 +29,23 @@
 
     body{
         font-family: "Arsenal SC", sans-serif;
+        background: radial-gradient(circle, #5f7e53ad, #313829, #47531ba1);
+        background-size: 1200% 1200%;
+        background-repeat: no-repeat;
+        background-position: center;
+        animation: gradient 15s ease infinite;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
     }
+
+   
 
     html{
         scroll-behavior: smooth;
     }
 
     p{
-        color: rgb(95, 95, 95);
+        color: rgb(10, 10, 10);
         /* font-size: 1.3rem;
         font-weight: 500; */
     }
@@ -30,6 +59,7 @@
 
 
     /*DESKTOP NAVIGATION */
+
 
     nav, .nav-links{
         display: flex;
@@ -55,14 +85,16 @@
     }
 
     a:hover{
-        color: grey;
+        color: rgb(126, 30, 30);
         font-size: 1.6rem;
         text-decoration: underline;
         text-underline-offset: 1rem;
-        text-decoration-color: rgb(181, 181, 181);
+        text-decoration-color: rgb(126, 51, 51);
     }
 
+
     .logo{
+        color: rgb(126, 30, 30);
         font-size: 2rem;
         font-weight: 500;
     }
@@ -121,19 +153,6 @@
         transition: all 0.3 ease-in-out;
     }
 
-    /* .menu-links a{
-        color: black;
-        text-decoration: none;
-        text-decoration-color: white;
-    }
-
-    .menu-links a:hover{
-        color: grey;
-        font-size: 1.6rem;
-        text-decoration: underline;
-        text-underline-offset: 1rem;
-        text-decoration-color: rgb(181, 181, 181);
-    } */
 
     .menu-links li{
         list-style: none;
@@ -192,6 +211,13 @@
         position: relative;
     }
 
+    .adekore-profile-picture{
+        border-radius: 100%;
+        border-color: #414d35a9;
+        border-width: 03.5rem;
+        border-style: dotted;
+    }
+
     .section__pic-container{
         display: flex;
         height: 400px;
@@ -203,6 +229,7 @@
     .section__text{
         align-self: center;
         text-align: center;
+        color: rgb(126, 30, 30);
     }
 
     .section__t_p{
@@ -257,7 +284,7 @@
 
     .btn-color-1, 
     .btn-color-2 {
-        border: rgb(53, 53, 53) 0.1rem solid;
+        border: rgb(10, 10, 10) 0.1rem solid;
         cursor: pointer;
     }
     .btn-color-1:hover, 
@@ -266,16 +293,17 @@
     }
     .btn-color-1, 
     .btn-color-2:hover {
-        background: rgb(53, 53, 53);
+        background: rgb(2, 2, 2);
         color: white;
     }
 
     .btn-color-1:hover {
-        background: rgb(0, 0, 0);
+        background: rgb(255, 255, 255);
+        color: black;
     }
 
     .btn-color-2 {
-        background: none;
+        background: white
     }
     .btn-color-2:hover {
         border: rgb(255, 255, 255) 0.1rem solid;
@@ -308,6 +336,8 @@
 
     .about-pic{
         border-radius:  2rem;
+        width: 420px;
+        position: relative;
     }
 
     .arrow{
@@ -323,10 +353,10 @@
     .details-container{
         padding: 1.5rem;
         flex: 1;
-        background: white;
+        background: #d1c58100;
         border-radius: 2rem;
-        border: rgb(53, 53, 53) 0.11rem solid;
-        border-color: rgb(163, 163, 163);
+        border: rgb(53, 53, 53) 0.10rem solid;
+        border-color: rgb(0, 0, 0);
         text-align: center;
     }
 
@@ -349,7 +379,7 @@
     }
 
     .experience-sub-title{
-        color: rgb(85, 85, 85);
+        color: rgb(10, 10, 10);
         font-weight: 600;
         font-size: 1.75rem;
         margin-bottom: 2rem;
