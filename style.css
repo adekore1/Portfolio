@@ -424,6 +424,12 @@
     position: relative;
 }
 
+#project-p{
+    font-size: 1.15rem;
+    color: rgb(209, 79, 79);
+    gap: 0.5rem;
+}
+
 
 .color-sontainer{
     border-color:rgb(163, 163, 163);
