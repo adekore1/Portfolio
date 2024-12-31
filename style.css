@@ -19,7 +19,7 @@
         }
     }
   
-
+   
 
 
     *{
@@ -33,7 +33,7 @@
         background-size: 1200% 1200%;
         background-repeat: no-repeat;
         background-position: center;
-        animation: gradient 15s ease infinite;
+        animation: gradient 30s ease infinite;
         box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 
     }
@@ -212,7 +212,7 @@
     }
 
     .adekore-profile-picture{
-        border-radius: 100%;
+        border-radius: 50%;
         border-color: #414d35a9;
         border-width: 03.5rem;
         border-style: dotted;
@@ -439,6 +439,8 @@
 .project-title{
     margin: 1rem;
     color: black;
+    text-decoration: underline;
+    text-decoration-style:wavy;
 }
 
 .project-btn{
