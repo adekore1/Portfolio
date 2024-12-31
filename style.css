@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+
 /* Define the keyframes for the gradient animation */
     @keyframes gradient {
         0%, 100% {
@@ -343,7 +344,7 @@
     .about-pic{
         border-radius:  2rem;
         width: 420px;
-        position: relative;
+        /* position: relative; */
     }
 
     .arrow{
