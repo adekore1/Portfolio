@@ -315,6 +315,12 @@
 
     /* ABOUT SECTION */
 
+    #about-paragraph{
+        font-size: large;
+        font-weight: 700;
+        color: rgb(209, 79, 79);
+    }
+
     #about{
         position: relative;
     }
