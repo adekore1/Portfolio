@@ -321,7 +321,7 @@
     #about-paragraph{
         font-size: large;
         font-weight: 700;
-        color: rgb(92, 18, 18);
+        color: rgb(0, 0, 0);
     }
 
     #about{
@@ -430,7 +430,7 @@
 
 #project-p{
     font-size: 1.15rem;
-    color: rgb(209, 79, 79);
+    color: rgb(0, 0, 0);
     gap: 0.5rem;
 }
 
